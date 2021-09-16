@@ -6,7 +6,7 @@ import { ShellScriptAction } from '@aws-cdk/pipelines';
 /**
  * The stack that defines the application pipeline
  */
-export class CdkpipelinesDemoPipelineStack extends Stack {
+export class InfrastructurePipelineStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
